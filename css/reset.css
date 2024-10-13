@@ -1,0 +1,21 @@
+/* Указываем box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние и внешние отступы */
+body, ul, ol, h1, h2, h3, h4, p, li, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Основные настройки body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #222222;
+}
